@@ -3,15 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Display</title>
+    <title>Jabali </title>
     <style media="screen">
         /* CSS styles */
         body, html {
-            height: 100%;
+           height: 100%;
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
         }
+
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file */
+            background-size: cover;
+            background-position: center;
+            opacity: 0.5; /* Adjust opacity as needed */
+            z-index: -1;
+            animation: fade 8s infinite alternate; /* Adjust animation duration as needed */
+        }
+
+        @keyframes fade {
+            0% {
+                opacity: 0.5; /* Adjust opacity as needed */
+            }
+            100% {
+                opacity: 1; /* Adjust opacity as needed */
+            }
+        }
+
 
         .container {
             max-width: 1200px;
@@ -167,21 +191,21 @@
                 <div class="product-info">
                     <div class="product-name">Product 1</div>
                     <div class="product-description">Description of Product 1.</div>
-                    <div class="product-price">$19.99</div>
+                    <div class="product-price">Ksh 5,000.00</div>
                     <a href="#" class="add-to-cart">Add to Cart</a>
                 </div>
             </div>
             <div class="column">
                 <img class="product-image" src="product2.jpg" alt="Product 1">
                 <div class="product-info">
-                    <div class="product-name">Product 1</div>
+                    <div class="product-name">Product 2</div>
                     <div class="product-description">Description of Product 1.</div>
-                    <div class="product-price">$19.99</div>
+                    <div class="product-price">Ksh 4,500.00</div>
                     <a href="#" class="add-to-cart">Add to Cart</a>
                 </div>
             </div>
             <div class="column">
-                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <img class="product-image" src="product3.jpg" alt="Product 1">
                 <div class="product-info">
                     <div class="product-name">Product 1</div>
                     <div class="product-description">Description of Product 1.</div>
@@ -190,7 +214,7 @@
                 </div>
             </div>
             <div class="column">
-                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <img class="product-image" src="product4.jpg" alt="Product 1">
                 <div class="product-info">
                     <div class="product-name">Product 1</div>
                     <div class="product-description">Description of Product 1.</div>
@@ -199,7 +223,7 @@
                 </div>
             </div>
             <div class="column">
-                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <img class="product-image" src="product5.jpg" alt="Product 1">
                 <div class="product-info">
                     <div class="product-name">Product 1</div>
                     <div class="product-description">Description of Product 1.</div>
@@ -208,7 +232,7 @@
                 </div>
             </div>
             <div class="column">
-                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <img class="product-image" src="product6.jpg" alt="Product 1">
                 <div class="product-info">
                     <div class="product-name">Product 1</div>
                     <div class="product-description">Description of Product 1.</div>
@@ -217,7 +241,7 @@
                 </div>
             </div>
             <div class="column">
-                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <img class="product-image" src="product7.jpg" alt="Product 1">
                 <div class="product-info">
                     <div class="product-name">Product 1</div>
                     <div class="product-description">Description of Product 1.</div>
@@ -226,7 +250,7 @@
                 </div>
             </div>
             <div class="column">
-                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <img class="product-image" src="product8.jpg" alt="Product 1">
                 <div class="product-info">
                     <div class="product-name">Product 1</div>
                     <div class="product-description">Description of Product 1.</div>
@@ -235,7 +259,7 @@
                 </div>
             </div>
             <div class="column">
-                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <img class="product-image" src="product9.jpg" alt="Product 1">
                 <div class="product-info">
                     <div class="product-name">Product 1</div>
                     <div class="product-description">Description of Product 1.</div>
@@ -244,7 +268,7 @@
                 </div>
             </div>
             <div class="column">
-                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <img class="product-image" src="product10.jpg" alt="Product 1">
                 <div class="product-info">
                     <div class="product-name">Product 1</div>
                     <div class="product-description">Description of Product 1.</div>
@@ -253,11 +277,6 @@
                 </div>
             </div>
 
-            <!-- Repeat the product card structure for more products -->
-            <!-- You can add more product cards here -->
-            <!-- Add 8 more product cards here -->
-
-            <!-- Repeat this product card structure 7 more times -->
         </div>
         <!-- Products data end -->
     </div>
@@ -277,7 +296,7 @@
 
     <!-- Footer -->
     <div class="footer">
-        <p>&copy; 2024 Our Shop. All rights reserved.</p>
+        <p>&copy; 2024 Jabali. All rights reserved.</p>
     </div>
 </body>
 </html>
