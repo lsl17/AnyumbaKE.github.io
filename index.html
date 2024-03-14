@@ -1,3 +1,6 @@
+Sure, below is the updated HTML code with a header containing shop description, a footer, and a signup form:
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -95,9 +98,60 @@
         .add-to-cart:hover {
             background-color: #45a049;
         }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .signup-form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .signup-form input[type="text"],
+        .signup-form input[type="email"],
+        .signup-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .signup-form input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .signup-form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
     </style>
 </head>
 <body>
+    <!-- Header with shop description -->
+    <div class="header">
+        <h1 style="text-align: center;">Welcome to Our Shop!</h1>
+        <p style="text-align: center;">Explore our wide range of products.</p>
+    </div>
+
     <!-- Navigation bar -->
     <div class="navbar">
         <a href="#">Home</a>
@@ -116,7 +170,7 @@
                 <div class="product-info">
                     <div class="product-name">Product 1</div>
                     <div class="product-description">Description of Product 1.</div>
-                    <div class="product-price">Ksh 3,000.00</div>
+                    <div class="product-price">$19.99</div>
                     <a href="#" class="add-to-cart">Add to Cart</a>
                 </div>
             </div>
@@ -126,7 +180,7 @@
                 <div class="product-info">
                     <div class="product-name">Product 2</div>
                     <div class="product-description">Description of Product 2.</div>
-                    <div class="product-price">Ksh 5,000.00</div>
+                    <div class="product-price">$24.99</div>
                     <a href="#" class="add-to-cart">Add to Cart</a>
                 </div>
             </div>
@@ -134,5 +188,26 @@
         </div>
         <!-- Products data end -->
     </div>
+
+    <!-- Signup form -->
+    <div class="container">
+        <div class="signup-form">
+            <h2 style="text-align: center;">Sign Up</h2>
+            <form action="#" method="post">
+                <input type="text" name="username" placeholder="Username">
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="password" placeholder="Password">
+                <input type="submit" value="Sign Up">
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Jabali. All rights reserved.</p>
+    </div>
 </body>
 </html>
+```
+
+This HTML code includes a header with a shop description, a navigation bar, product display section, a signup form, and a footer. You can customize the content and styling as needed.
