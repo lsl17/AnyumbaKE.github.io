@@ -19,6 +19,25 @@
             padding: 0 20px;
         }
 
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
         .row {
             display: flex;
             flex-wrap: wrap;
@@ -79,6 +98,13 @@
     </style>
 </head>
 <body>
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+    </div>
+
     <div class="container">
         <h3 style="text-align:center; color:yellow;">Products</h3>
 
@@ -90,7 +116,7 @@
                 <div class="product-info">
                     <div class="product-name">Product 1</div>
                     <div class="product-description">Description of Product 1.</div>
-                    <div class="product-price">$19.99</div>
+                    <div class="product-price">Ksh 3,000.00</div>
                     <a href="#" class="add-to-cart">Add to Cart</a>
                 </div>
             </div>
@@ -100,7 +126,7 @@
                 <div class="product-info">
                     <div class="product-name">Product 2</div>
                     <div class="product-description">Description of Product 2.</div>
-                    <div class="product-price">$24.99</div>
+                    <div class="product-price">Ksh 5,000.00</div>
                     <a href="#" class="add-to-cart">Add to Cart</a>
                 </div>
             </div>
