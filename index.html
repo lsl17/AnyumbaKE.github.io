@@ -1,4 +1,4 @@
-Sure, below is the updated HTML code with a header containing shop description, a footer, and a signup form:
+Certainly! Here's the full HTML code including the navigation tab, product display section, signup form, and footer:
 
 ```html
 <!DOCTYPE html>
@@ -55,6 +55,12 @@ Sure, below is the updated HTML code with a header containing shop description, 
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative; /* Add position relative for animation */
+            transition: transform 0.5s;
+        }
+
+        .column:hover {
+            transform: translateY(-10px); /* Add translateY transform for animation */
         }
 
         .product-image {
@@ -146,12 +152,6 @@ Sure, below is the updated HTML code with a header containing shop description, 
     </style>
 </head>
 <body>
-    <!-- Header with shop description -->
-    <div class="header">
-        <h1 style="text-align: center;">Welcome to Our Shop!</h1>
-        <p style="text-align: center;">Explore our wide range of products.</p>
-    </div>
-
     <!-- Navigation bar -->
     <div class="navbar">
         <a href="#">Home</a>
@@ -174,17 +174,93 @@ Sure, below is the updated HTML code with a header containing shop description, 
                     <a href="#" class="add-to-cart">Add to Cart</a>
                 </div>
             </div>
-
             <div class="column">
-                <img class="product-image" src="product2.jpg" alt="Product 2">
+                <img class="product-image" src="product2.jpg" alt="Product 1">
                 <div class="product-info">
-                    <div class="product-name">Product 2</div>
-                    <div class="product-description">Description of Product 2.</div>
-                    <div class="product-price">$24.99</div>
+                    <div class="product-name">Product 1</div>
+                    <div class="product-description">Description of Product 1.</div>
+                    <div class="product-price">$19.99</div>
                     <a href="#" class="add-to-cart">Add to Cart</a>
                 </div>
             </div>
-            <!-- Product cards end -->
+            <div class="column">
+                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <div class="product-info">
+                    <div class="product-name">Product 1</div>
+                    <div class="product-description">Description of Product 1.</div>
+                    <div class="product-price">$19.99</div>
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+            <div class="column">
+                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <div class="product-info">
+                    <div class="product-name">Product 1</div>
+                    <div class="product-description">Description of Product 1.</div>
+                    <div class="product-price">$19.99</div>
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+            <div class="column">
+                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <div class="product-info">
+                    <div class="product-name">Product 1</div>
+                    <div class="product-description">Description of Product 1.</div>
+                    <div class="product-price">$19.99</div>
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+            <div class="column">
+                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <div class="product-info">
+                    <div class="product-name">Product 1</div>
+                    <div class="product-description">Description of Product 1.</div>
+                    <div class="product-price">$19.99</div>
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+            <div class="column">
+                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <div class="product-info">
+                    <div class="product-name">Product 1</div>
+                    <div class="product-description">Description of Product 1.</div>
+                    <div class="product-price">$19.99</div>
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+            <div class="column">
+                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <div class="product-info">
+                    <div class="product-name">Product 1</div>
+                    <div class="product-description">Description of Product 1.</div>
+                    <div class="product-price">$19.99</div>
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+            <div class="column">
+                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <div class="product-info">
+                    <div class="product-name">Product 1</div>
+                    <div class="product-description">Description of Product 1.</div>
+                    <div class="product-price">$19.99</div>
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+            <div class="column">
+                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <div class="product-info">
+                    <div class="product-name">Product 1</div>
+                    <div class="product-description">Description of Product 1.</div>
+                    <div class="product-price">$19.99</div>
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+
+            <!-- Repeat the product card structure for more products -->
+            <!-- You can add more product cards here -->
+            <!-- Add 8 more product cards here -->
+
+            <!-- Repeat this product card structure 7 more times -->
         </div>
         <!-- Products data end -->
     </div>
@@ -204,10 +280,7 @@ Sure, below is the updated HTML code with a header containing shop description, 
 
     <!-- Footer -->
     <div class="footer">
-        <p>&copy; 2024 Jabali. All rights reserved.</p>
+        <p>&copy; 2024 Our Shop. All rights reserved.</p>
     </div>
 </body>
 </html>
-```
-
-This HTML code includes a header with a shop description, a navigation bar, product display section, a signup form, and a footer. You can customize the content and styling as needed.
